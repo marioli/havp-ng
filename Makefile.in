@@ -1,0 +1,8 @@
+all:
+	cd havp && $(MAKE)
+
+clean:
+	cd havp && $(MAKE) clean
+
+install:
+	cd havp && $(MAKE) install
